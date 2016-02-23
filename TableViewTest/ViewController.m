@@ -26,6 +26,9 @@ const NSObject * FourImageObj;
         array=[[NSMutableArray alloc] init];
         NSLog(@"hello");
         
+        
+        
+        
     }
     return self;
 }
