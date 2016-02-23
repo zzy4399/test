@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424EE25A1C7554C1009E0743 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 424EE2591C7554C1009E0743 /* Game.m */; };
+		424EE25E1C756A83009E0743 /* FourImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 424EE25C1C756A83009E0743 /* FourImageTableViewCell.m */; };
+		424EE25F1C756A83009E0743 /* FourImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424EE25D1C756A83009E0743 /* FourImageTableViewCell.xib */; };
+		424EE2621C75738B009E0743 /* gift_item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424EE2611C75738B009E0743 /* gift_item@2x.png */; };
+		424EE2641C75739C009E0743 /* forum_item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424EE2631C75739C009E0743 /* forum_item@2x.png */; };
+		424EE2661C7573A8009E0743 /* necessary_item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424EE2651C7573A8009E0743 /* necessary_item@2x.png */; };
+		424EE2681C7573BF009E0743 /* timeFree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424EE2671C7573BF009E0743 /* timeFree@2x.png */; };
 		425657981C746A4D0098F114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425657971C746A4D0098F114 /* main.m */; };
 		4256579B1C746A4D0098F114 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4256579A1C746A4D0098F114 /* AppDelegate.m */; };
 		4256579E1C746A4D0098F114 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4256579D1C746A4D0098F114 /* ViewController.m */; };
@@ -14,6 +21,10 @@
 		425657A31C746A4D0098F114 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425657A21C746A4D0098F114 /* Images.xcassets */; };
 		425657A61C746A4D0098F114 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425657A41C746A4D0098F114 /* LaunchScreen.xib */; };
 		425657B21C746A4E0098F114 /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425657B11C746A4E0098F114 /* TableViewTestTests.m */; };
+		425657BC1C746A8A0098F114 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425657BB1C746A8A0098F114 /* MainView.xib */; };
+		425657C81C7488EF0098F114 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 425657C61C7488EF0098F114 /* MyTableViewCell.m */; };
+		425657C91C7488EF0098F114 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425657C71C7488EF0098F114 /* MyTableViewCell.xib */; };
+		425657CB1C74899A0098F114 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 425657CA1C74899A0098F114 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		424EE2581C7554C1009E0743 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		424EE2591C7554C1009E0743 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		424EE25B1C756A83009E0743 /* FourImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourImageTableViewCell.h; sourceTree = "<group>"; };
+		424EE25C1C756A83009E0743 /* FourImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourImageTableViewCell.m; sourceTree = "<group>"; };
+		424EE25D1C756A83009E0743 /* FourImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourImageTableViewCell.xib; sourceTree = "<group>"; };
+		424EE2611C75738B009E0743 /* gift_item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gift_item@2x.png"; sourceTree = "<group>"; };
+		424EE2631C75739C009E0743 /* forum_item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forum_item@2x.png"; sourceTree = "<group>"; };
+		424EE2651C7573A8009E0743 /* necessary_item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "necessary_item@2x.png"; sourceTree = "<group>"; };
+		424EE2671C7573BF009E0743 /* timeFree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeFree@2x.png"; sourceTree = "<group>"; };
 		425657921C746A4D0098F114 /* TableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		425657961C746A4D0098F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425657971C746A4D0098F114 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +60,11 @@
 		425657AB1C746A4E0098F114 /* TableViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		425657B01C746A4E0098F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425657B11C746A4E0098F114 /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
+		425657BB1C746A8A0098F114 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		425657C51C7488EF0098F114 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		425657C61C7488EF0098F114 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		425657C71C7488EF0098F114 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		425657CA1C74899A0098F114 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +85,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		424EE2571C755494009E0743 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				424EE2581C7554C1009E0743 /* Game.h */,
+				424EE2591C7554C1009E0743 /* Game.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		424EE2601C75736F009E0743 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				424EE2671C7573BF009E0743 /* timeFree@2x.png */,
+				424EE2651C7573A8009E0743 /* necessary_item@2x.png */,
+				424EE2631C75739C009E0743 /* forum_item@2x.png */,
+				424EE2611C75738B009E0743 /* gift_item@2x.png */,
+				425657CA1C74899A0098F114 /* Icon.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
 		425657891C746A4D0098F114 = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +127,22 @@
 		425657941C746A4D0098F114 /* TableViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				424EE2571C755494009E0743 /* Model */,
 				425657991C746A4D0098F114 /* AppDelegate.h */,
 				4256579A1C746A4D0098F114 /* AppDelegate.m */,
 				4256579C1C746A4D0098F114 /* ViewController.h */,
 				4256579D1C746A4D0098F114 /* ViewController.m */,
-				4256579F1C746A4D0098F114 /* Main.storyboard */,
+				425657BB1C746A8A0098F114 /* MainView.xib */,
+				425657C51C7488EF0098F114 /* MyTableViewCell.h */,
+				425657C61C7488EF0098F114 /* MyTableViewCell.m */,
+				425657C71C7488EF0098F114 /* MyTableViewCell.xib */,
+				424EE25B1C756A83009E0743 /* FourImageTableViewCell.h */,
+				424EE25C1C756A83009E0743 /* FourImageTableViewCell.m */,
+				424EE25D1C756A83009E0743 /* FourImageTableViewCell.xib */,
 				425657A21C746A4D0098F114 /* Images.xcassets */,
-				425657A41C746A4D0098F114 /* LaunchScreen.xib */,
 				425657951C746A4D0098F114 /* Supporting Files */,
+				425657A41C746A4D0098F114 /* LaunchScreen.xib */,
+				4256579F1C746A4D0098F114 /* Main.storyboard */,
 			);
 			path = TableViewTest;
 			sourceTree = "<group>";
@@ -96,6 +150,7 @@
 		425657951C746A4D0098F114 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				424EE2601C75736F009E0743 /* resource */,
 				425657961C746A4D0098F114 /* Info.plist */,
 				425657971C746A4D0098F114 /* main.m */,
 			);
@@ -199,9 +254,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424EE2641C75739C009E0743 /* forum_item@2x.png in Resources */,
+				425657CB1C74899A0098F114 /* Icon.png in Resources */,
+				424EE2621C75738B009E0743 /* gift_item@2x.png in Resources */,
+				425657C91C7488EF0098F114 /* MyTableViewCell.xib in Resources */,
+				424EE2681C7573BF009E0743 /* timeFree@2x.png in Resources */,
 				425657A11C746A4D0098F114 /* Main.storyboard in Resources */,
+				424EE25F1C756A83009E0743 /* FourImageTableViewCell.xib in Resources */,
+				425657BC1C746A8A0098F114 /* MainView.xib in Resources */,
 				425657A61C746A4D0098F114 /* LaunchScreen.xib in Resources */,
 				425657A31C746A4D0098F114 /* Images.xcassets in Resources */,
+				424EE2661C7573A8009E0743 /* necessary_item@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424EE25E1C756A83009E0743 /* FourImageTableViewCell.m in Sources */,
 				4256579E1C746A4D0098F114 /* ViewController.m in Sources */,
+				425657C81C7488EF0098F114 /* MyTableViewCell.m in Sources */,
+				424EE25A1C7554C1009E0743 /* Game.m in Sources */,
 				4256579B1C746A4D0098F114 /* AppDelegate.m in Sources */,
 				425657981C746A4D0098F114 /* main.m in Sources */,
 			);
@@ -418,6 +484,7 @@
 				425657B71C746A4E0098F114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		425657B81C746A4E0098F114 /* Build configuration list for PBXNativeTarget "TableViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +493,7 @@
 				425657BA1C746A4E0098F114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

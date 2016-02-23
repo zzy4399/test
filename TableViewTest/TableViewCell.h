@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewCell.h
 //  TableViewTest
 //
 //  Created by 周子尧 on 16/2/17.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>{
-    NSMutableArray * array;
-}
 
+@interface TableViewCell : UITableViewCell
 
 @end
-
