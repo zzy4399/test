@@ -24,11 +24,6 @@ const NSObject * FourImageObj;
 
     if(self=[super initWithNibName:@"MainView" bundle:nil]){
         array=[[NSMutableArray alloc] init];
-        NSLog(@"hello");
-        
-        
-        
-        
     }
     return self;
 }
